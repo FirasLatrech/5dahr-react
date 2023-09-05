@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+*{
+  font-family: Montserrat !important;
+}
+.new_card {
+  cursor: pointer;
+  width: 21rem !important;
+}
+.ant-card-cover {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ant-card-cover img {
+  width: 200px !important;
+  height: 200px !important;
+  transition: all 0.5s ease-in-out;
+}
+.ant-card-cover img:hover {
+  width: 200px !important;
+  height: 200px !important;
+  transform: scale(1.2);
+}
+.prices .after_discount {
+}
+.before_discount {
+  text-decoration: line-through;
+}
+
+.header_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.category{
+  background-color:  #274c5b;
+  padding: 10px;
+  border-radius: 15px;
+  color: white;
+  transition: all 1s ease-in-out;
+}
+.header_card span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #274c5b;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.header_card span img {
+  height: 20px;
+  transition: all 0.5s;
+}
+.header_card span img:hover {
+
+  transform: rotate(360deg) ;
+}
+
+.prices {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+

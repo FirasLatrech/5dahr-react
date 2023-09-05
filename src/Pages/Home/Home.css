@@ -1,0 +1,12 @@
+.home_page .banner_img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 50px 100px;
+}
